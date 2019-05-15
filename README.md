@@ -103,21 +103,18 @@ Maintenant nous pouvons charger le didacticiel. Lorsque vous ouvrez Jupyter, vou
 Vous noterez qu'il y a une boîte autour de la première "cellule". Cette cellule contient une ligne de code source `println("Hello World!")`. Au-dessus de cette cellule, il y a une barre d'outil avec un bouton qui contient une flêche orientée vers la droite et le mot _run_. Cliquez sur ce bouton pour lancer le code de cette cellule. Sinon, vous pouvez utiliser le menu _Cell > Run Cells_.
 
 
-After many seconds, once initialization has completed, it will print the output, `Hello World!` just below the input text field.
+Après plusieurs secondes, une fois que l'initialisation est terminée, `Hello World !` est affiché en sortie juste en dessous du texte d'entrée.
 
-Do the same thing for the next box. It should print `[merrywivesofwindsor, twelfthnight, midsummersnightsdream, loveslabourslost, asyoulikeit, comedyoferrors, muchadoaboutnothing, tamingoftheshrew]`, the contents of the `/home/jovyan/work/data/shakespeare` folder, the texts for several of Shakespeare's plays. We'll use these files as data.
+Faites la même chose avec la cellule suivante. Il devrait être affiché `[merrywivesofwindsor, twelfthnight, midsummersnightsdream, loveslabourslost, asyoulikeit, comedyoferrors, muchadoaboutnothing, tamingoftheshrew]` qui est le contenu du dossier `/home/jovyan/work/data/shakespeare` : des textes de plusieurs pièces de Shakespeare. Nous allons utiliser ces fichiers comme données.
 
-> **Warning:** If instead you see `[]` or `null` printed, the mounting of the current working directory did not work correctly when the container was started. In the terminal window, use `control-c` to exit from the Docker container, make sure you are in the root directory of the project (`data` and `notebooks` should be subdirectories), restart the docker image, and make sure you enter the command exactly as shown.
+> **Attention:** Si à la place vous voyez `[]` ou `null` affiché, le montage du répertoire de travail courant ne fonctionnait pas correctement lorsque le conteneur a démarré. Dans une fenêtre de terminal, tapez `ctrl + c` pour sortir du conteneur Docker, veillez à ce que vous soyez à la racine du répertoire du projet (`data` et `notebooks` devraient être des sous-répertoires), relancez l'image docker et veillez à entrer exactement la commande comme indiqué.
+Si ces étapes ont fonctionné, vous avez terminé de configuré le tutoriel !
 
-If these steps worked, you're done setting up the tutorial!
+## Et après ?
+Vous êtes maintenant prêt à faire le tutoriel.
 
+Vous ne voulez pas lancer le notebook Spark pour apprendre ? Un PDF de ce notebook est aussi disponible dans le répertoire `notebooks`.
 
-## What's Next?
-
-You are now ready to go through the tutorial.
-
-Don't want to run Spark Notebook to learn the material? A PDF printout of the notebook can also be found in the `notebooks` directory.
-
-Please post any feedback, bugs, or even pull requests to the [project's GitHub page](https://github.com/univalence/CeQuilFautDeScalaPourSpark). Thanks.
+Veuillez s'il vous plaît poster vos commentaires, bugs, ou même pull requests dans la [page du projet GitHub](https://github.com/univalence/CeQuilFautDeScalaPourSpark). Merci.
 
 Dean Wampler
