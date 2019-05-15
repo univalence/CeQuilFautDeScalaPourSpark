@@ -23,7 +23,7 @@ Commencer par cloner ou télécharger le projet Github du didacticiel https://gi
 
 ## À propos de Jupyter et Spark
 
-Ce didacticiel utilise une image [Docker](https://docker.com), qui combine l'environnement de notebook populaire [Jupyter](http://jupyter.org/) avec tous les outils dont vous aurez besoin pour lancer Spark avec Scala, appelée [All Spark Notebook](https://hub.docker.com/r/jupyter/all-spark-notebook/). Il contient [Apache Toree](https://toree.apache.org/) qui fournit un accès à Spark et Scala. la [page Web](https://hub.docker.com/r/jupyter/all-spark-notebook/) de cette image Docker contient des infomrations utiles comme l'utilisation de Python et de Scala, les sujets sur l'authentification utilisateur, le lancement de vos jobs Spark Spark sur des clusters plutôt que le mode local, etc.
+Ce didacticiel utilise une image [Docker](https://docker.com), qui combine l'environnement de notebook populaire [Jupyter](http://jupyter.org/) avec tous les outils dont vous aurez besoin pour lancer Spark avec Scala, appelée [Tout Spark Notebook](https://hub.docker.com/r/univalence/tout-spark-notebook). Il contient [Apache Toree](https://toree.apache.org/) qui fournit un accès à Spark et Scala. la [page Web](https://hub.docker.com/r/univalence/tout-spark-notebook) de cette image Docker contient des infomrations utiles comme l'utilisation de Python et de Scala, les sujets sur l'authentification utilisateur, le lancement de vos jobs Spark Spark sur des clusters plutôt que le mode local, etc.
 
 Il y a d'autres alternatives de notebooks que vous pouvez tenter selon votre besoin :
 
@@ -57,7 +57,7 @@ docker run -it --rm \
   --cpus=2.0 --memory=2000M \
   -v "$PWD":/home/jovyan/work \
   "$@" \
-  jupyter/all-spark-notebook
+  univalence/tout-spark-notebook
 ```
 
 Le script `run.bat` de Windows est similaire, mais utilise les conventions de Windows.
@@ -75,13 +75,13 @@ Le paramètre `-p 8888:8888 -p 4040:4040` demande à Docker de créer un tunnel 
 Vous devezvoir une sortie similaire à ce qui suit :
 
 ```bash
-Unable to find image 'jupyter/all-spark-notebook:latest' locally
-latest: Pulling from jupyter/all-spark-notebook
+Unable to find image 'univalence/tout-spark-notebook:latest' locally
+latest: Pulling from univalence/tout-spark-notebook
 e0a742c2abfd: Pull complete
 ...
 ed25ef62a9dd: Pull complete
 Digest: sha256:...
-Status: Downloaded newer image for jupyter/all-spark-notebook:latest
+Status: Downloaded newer image for univalence/tout-spark-notebook:latest
 Execute the command: jupyter notebook
 ...
 [I 19:08:15.017 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
