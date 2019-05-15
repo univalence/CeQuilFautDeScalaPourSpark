@@ -1,8 +1,6 @@
 # @Ce qu'il faut de Scala pour Spark
 
 
-> **NEW:** This tutorial now uses a Docker image with Jupyter and Spark, for a much more robust, easy to use, and "industry standard" experience.
-
 Le didacticiel couvre les plus importantes fonctionnalités et idiomes de [Scala](http://scala-lang.org/) dont vous aurez besoin pour utiliser l'APIs Scala de [Apache Spark](http://spark.apache.org/). Puisque Spark est écrit en Scala, Spark suscite l'intérêt pour Scala, en particulier pour les _data engineers_. Les _data scientists_ utilisent Scala parfois. Mais la plupart utilise Python ou R.
 
 Allez récupérer la [Lightbend Fast Data Platform](http://lightbend.com/fast-data-platform), notre nouvelle distribution de _Fast Data_ (stream processing), incluant Spark, Flink, Kafka, Akka Streams, Kafka Streams, HDFS et nos outils de gestion et monitoring en production, tournant sous Mesosphere DC/OS.
@@ -10,11 +8,6 @@ Allez récupérer la [Lightbend Fast Data Platform](http://lightbend.com/fast-da
 > **Conseils :**
 > 1. Si vous suivez ce didacticiel lors d'une conférence, il est **nécessaire** de la configurer avant, car vous ne disposerez pas de temps suffisant pendant la session pour résoudre les problèmes.
 > 2. Si tout échoue, il y a un PDF du didacticiel dans le répertoire `notebooks`.
-
-> **Tips:**
-> 1. If you're taking this tutorial at a conference, it's **essential** that you set up the tutorial ahead of time, as there won't be time during the session to work on any problems.
-> 2. Use the [Gitter chat room](https://gitter.im/deanwampler/JustEnoughScalaForSpark) to ask for help or post issues to the [GitHub repo](https://github.com/deanwampler/JustEnoughScalaForSpark/issues) if you have trouble installing or running the tutorial.
-> 3. If all else fails, there is a PDF of the tutorial in the `notebooks` directory.
 
 ## Prérequis
 
@@ -26,7 +19,7 @@ Tout au long du didacticiel, vous trouverez des liens vers plus d'informations s
 
 ## Télécharger le didacticiel
 
-Commencer par cloner ou télécharger le projet Github du didacticiel [github.com/deanwampler/JustEnoughScalaForSpark](https://github.com/deanwampler/JustEnoughScalaForSpark).
+Commencer par cloner ou télécharger le projet Github du didacticiel https://github.com/univalence/CeQuilFautDeScalaPourSpark.
 
 ## À propos de Jupyter et Spark
 
@@ -118,10 +111,6 @@ Do the same thing for the next box. It should print `[merrywivesofwindsor, twelf
 
 If these steps worked, you're done setting up the tutorial!
 
-<a name="getting-help"></a>
-## Getting Help
-
-If you're having problems, use the [Gitter chat room](https://gitter.im/deanwampler/JustEnoughScalaForSpark) to ask for help. If you're reasonably certain you've found a bug, post an issue to the [GitHub repo](https://github.com/deanwampler/JustEnoughScalaForSpark/issues). Recall that the `notebooks` directory also has a PDF of the notebook that you can read when the notebook won't work.
 
 ## What's Next?
 
@@ -129,6 +118,6 @@ You are now ready to go through the tutorial.
 
 Don't want to run Spark Notebook to learn the material? A PDF printout of the notebook can also be found in the `notebooks` directory.
 
-Please post any feedback, bugs, or even pull requests to the [project's GitHub page](https://github.com/deanwampler/JustEnoughScalaForSpark). Thanks.
+Please post any feedback, bugs, or even pull requests to the [project's GitHub page](https://github.com/univalence/CeQuilFautDeScalaPourSpark). Thanks.
 
 Dean Wampler
