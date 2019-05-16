@@ -1,6 +1,5 @@
 # @Ce qu'il faut de Scala pour Spark
 
-
 Le didacticiel couvre les plus importantes fonctionnalités et idiomes de [Scala](http://scala-lang.org/) dont vous aurez besoin pour utiliser l'APIs Scala de [Apache Spark](http://spark.apache.org/). Puisque Spark est écrit en Scala, Spark suscite l'intérêt pour Scala, en particulier pour les _data engineers_. Les _data scientists_ utilisent Scala parfois. Mais la plupart utilise Python ou R.
 
 Allez récupérer la [Lightbend Fast Data Platform](http://lightbend.com/fast-data-platform), notre nouvelle distribution de _Fast Data_ (stream processing), incluant Spark, Flink, Kafka, Akka Streams, Kafka Streams, HDFS et nos outils de gestion et monitoring en production, tournant sous Mesosphere DC/OS.
@@ -117,4 +116,8 @@ Vous ne voulez pas lancer le notebook Spark pour apprendre ? Un PDF de ce notebo
 
 Veuillez s'il vous plaît poster vos commentaires, bugs, ou même pull requests dans la [page du projet GitHub](https://github.com/univalence/CeQuilFautDeScalaPourSpark). Merci.
 
-Dean Wampler
+L'équipe du workshop.
+
+## Note
+
+Ce repo est une une traduction du repo https://github.com/deanwampler/JustEnoughScalaForSpark créé par Dean Wampler.
